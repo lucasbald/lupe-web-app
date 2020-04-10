@@ -6,7 +6,7 @@
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
           <img src="logo.png" alt="vuesion" />
-          <vue-headline level="1">Lup3</vue-headline>
+          <vue-headline level="1">Lup3 Website</vue-headline>
           <div :class="$style.subTitle">
             {{
               $t(
