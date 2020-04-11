@@ -26,19 +26,19 @@ $brand-warning: palette-color-level('yellow', 40);
 $brand-danger: palette-color-level('red', 50);
 
 /* Background Colors */
-$brand-bg-color: palette-color-level('grey', 10);
-$brand-bg-color-variant: palette-color-level('grey', 20);
+$brand-bg-color: palette-color-level('grey', 90);
+$brand-bg-color-variant: palette-color-level('grey', 60);
 $brand-bg-color-inverse: palette-color-level('grey', 100);
 $brand-bg-color-variant-inverse: palette-color-level('grey', 80);
 
 /* Text Colors */
-$brand-text-color: palette-color-level('grey', 100);
+$brand-text-color: palette-color-level('grey', 10);
 $brand-text-secondary-color: palette-color-level('grey', 60);
 $brand-text-color-inverse: palette-color-level('grey', 10);
 $brand-text-secondary-color-inverse: palette-color-level('grey', 30);
 
 /* Link Color */
-$brand-link-color: palette-color-level('blue', 70);
+$brand-link-color: palette-color-level('blue', 50);
 $brand-link-hover-color: palette-color-level('blue', 70);
 
 /* Border Colors */
