@@ -5,7 +5,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <img src="logo.png" alt="vuesion" />
+          <img src="lucasbald.png" alt="lucas logo" />
           <vue-headline level="1">Lup3 Website</vue-headline>
           <div :class="$style.subTitle">
             {{
@@ -18,6 +18,7 @@
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>
+    </br>
   </div>
 </template>
 
