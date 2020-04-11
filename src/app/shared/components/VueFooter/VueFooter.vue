@@ -3,15 +3,12 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item>
-          <small>&copy; Copyright {{ year }} Johannes Werner</small>
+          <small>&copy; Copyright {{ year }} Lucas Baldin</small>
         </vue-grid-item>
 
         <vue-grid-item>
-          <a href="https://github.com/devCrossNet" target="_blank" rel="noopener" aria-label="github profile">
+          <a href="https://github.com/lucasbald/lupe-web-app" target="_blank" rel="noopener" aria-label="github profile">
             <vue-icon-github-alt />
-          </a>
-          <a href="https://twitter.com/vuesion1" target="_blank" rel="noopener" aria-label="twitter profile">
-            <vue-icon-twitter-square />
           </a>
         </vue-grid-item>
 
