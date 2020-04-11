@@ -5,11 +5,7 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-<<<<<<< HEAD
-          <img src="logo.png" alt="vuesion" />
-=======
           <img src="lucasbald.png" alt="lucas logo" />
->>>>>>> 93ce5eb9b862e2f69605a7002205bf5d75b52422
           <vue-headline level="1">Lup3 Website</vue-headline>
           <div :class="$style.subTitle">
             {{
@@ -18,27 +14,6 @@
               )
             }}
           </div>
-<<<<<<< HEAD
-          <div :class="$style.subTitle">
-            {{
-              $t(
-                'App.core.testing'
-              )
-            }}
-          </div>
-
-          <br />
-
-          <a
-            :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
-            target="_blank"
-            rel="noopener"
-            aria-label="vuesion github repository"
-          >
-            <vue-icon-github />
-=======
->>>>>>> 93ce5eb9b862e2f69605a7002205bf5d75b52422
           </a>
         </vue-grid-item>
       </vue-grid-row>
