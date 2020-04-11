@@ -1,6 +1,5 @@
 {
   "App.core.description": "Ein professionelles Boilerplate für universelle, progressive-web-apps mit Vue.JS",
-  "App.core.testing": "Testing",
   "auth.LoginForm.cta": "Login",
   "auth.LoginForm.password.error": "The password has to have at least 6 characters",
   "auth.LoginForm.title": "Login Example",
