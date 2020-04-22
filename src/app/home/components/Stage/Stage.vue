@@ -5,8 +5,8 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <img src="lucasbald.png" alt="lucas logo" />
-          <vue-headline level="1">Lup3 Website</vue-headline>
+          <img src="logo-lup3.png" alt="logo website" />
+          <vue-headline level="1">Lup3 Marketing and Tecnology</vue-headline>
           <div :class="$style.subTitle">
             {{
               $t(
@@ -14,7 +14,6 @@
               )
             }}
           </div>
-          </a>
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>

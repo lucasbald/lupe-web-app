@@ -5,7 +5,7 @@
     <vue-navigation-progress :is-navigating="isNavigating" />
 
     <vue-nav-bar>
-      <vue-button slot="right" v-if="isAuthenticated === false" color="primary" @click="showLoginModal = true">
+      <vue-button slot="right" v-if="isAuthenticated === false" color="primary" @click="showLoginModal = true" disabled>
         Login
       </vue-button>
 
@@ -40,19 +40,10 @@
           Home
         </vue-sidebar-group-item>
 
-        <vue-sidebar-group-item :to="{ name: 'counter' }">
+        <!-- <vue-sidebar-group-item :to="{ name: 'counter' }">
           <vue-icon-hashtag />
           VueX Example
-        </vue-sidebar-group-item>
-
-        <vue-sidebar-group-item :to="{ name: 'form' }">
-          <vue-icon-hashtag />
-          Form Example
-        </vue-sidebar-group-item>
-      </vue-sidebar-group>
-
-      </vue-sidebar-group>
-
+        </vue-sidebar-group-item> -->
       </vue-sidebar-group>
     </vue-sidebar>
 
@@ -133,9 +124,12 @@ export default {
     ...mapActions('app', ['changeLocale', 'setCookieConsentVersion']),
     ...mapActions('auth', ['createToken', 'revokeToken']),
     localeSwitch(locale: string) {
-      loadLocaleAsync(locale).catch((error: Error) => console.log(error)); // tslint:disable-line
-
-      this.changeLocale(locale);
+      if (locale) {
+        loadLocaleAsync(locale).catch((error: Error) => console.log(error)); // tslint:disable-line
+        this.changeLocale(locale);
+      } else {
+        this.changeLocale('pt');
+      }
     },
     initProgressBar() {
       this.$router.beforeEach((to: any, from: any, next: any) => {

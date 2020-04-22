@@ -16,7 +16,7 @@ describe('Stage.vue', () => {
       },
     });
 
-    expect(wrapper.find('h1').text()).toBe('Lup3 Website');
+    expect(wrapper.find('h1').text()).toBe('Lup3 Marketing and Tecnology');
 
     (wrapper as any).vm.$refs.stage.getClientRects = () => {
       return {
