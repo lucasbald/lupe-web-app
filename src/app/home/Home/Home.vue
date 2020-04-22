@@ -1,77 +1,38 @@
 <template>
   <div>
     <stage :disable-particles="disableParticles" />
-    <home-section
-      image="https://images.unsplash.com/photo-1549082984-1323b94df9a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      alternative
-    >
-      <vue-headline level="2">Developer Experience</vue-headline>
+    <home-section image="pedro-image.png" alternative>
+      <vue-headline level="2">Pedro A. S. Broglio</vue-headline>
       <br />
-      <vue-headline level="3">Quick scaffolding</vue-headline>
-      <p>Create components, VueX connected components, modules - and their tests - right from the CLI!</p>
-      <br />
-      <vue-headline level="3">Instant feedback</vue-headline>
+      <vue-headline level="3">Experiência</vue-headline>
       <p>
-        Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the
-        CSS and TypeScript are reflected instantaneously without refreshing the page or restarting your server. Preserve
-        application state even when you update something in the underlying code!
+        Graduado em Ciências do Esporte pela UNICAMP, Vice-Presidente da empresa júnior CENS JR. em 2017 e Assistente de
+        Marketing na A.A. Internacional.
       </p>
       <br />
-      <vue-headline level="3">Tons of use-cases</vue-headline>
+      <vue-headline level="3">Você me encontra em:</vue-headline>
       <p>
-        e.g. HttpService with interceptors, vuex persist middleware, redirect scenarios, configs for different
-        environments, etc.
+        <a href="https://www.linkedin.com/in/pedro-antonio-siqueira-broglio-a3b456138/" target="_blank" rel="noopener"
+          >Linkedin</a
+        >
       </p>
+      <br />
     </home-section>
 
-    <home-section
-      image="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      flip
-    >
-      <vue-headline level="2">Enterprise ready</vue-headline>
+    <home-section image="lucas-image.jpg" flip>
+      <vue-headline level="2">Lucas Baldin</vue-headline>
       <br />
-      <vue-headline level="3">SEO</vue-headline>
+      <vue-headline level="3">Experiência</vue-headline>
       <p>
-        We support SEO (document head tags management) and server-side-rendering for search engines that support
-        indexing of JavaScript content. (eg. Google)
+        Graduado em Ciências da Computação pela UNESP, Diretor executivo da empresa júnior Info Jr durante 3 anos e
+        atualmente Engenheiro de Software na Ci&t
       </p>
       <br />
-      <vue-headline level="3">Best practices</vue-headline>
+      <vue-headline level="3">Você me encontra em:</vue-headline>
       <p>
-        A Common style guide, TypeScript, and the best test setup: Automatically guarantee code quality and non-breaking
-        changes.
+        <a href="https://www.linkedin.com/in/lbaldin" target="_blank" rel="noopener">Linkedin</a>
       </p>
       <br />
-      <vue-headline level="3">i18n</vue-headline>
-      <p>
-        Scalable apps need to support multiple languages, easily add and support multiple languages with vue-i18n.
-      </p>
-    </home-section>
-
-    <home-section
-      image="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      alternative
-    >
-      <vue-headline level="2">User experience</vue-headline>
-      <br />
-      <vue-headline level="3">Animations</vue-headline>
-      <p>
-        A stable animations set up already included (<a href="http://animejs.com/" target="_blank" rel="noopener"
-          >anime.js</a
-        >).
-      </p>
-      <br />
-      <vue-headline level="3">Progressive-Web-App</vue-headline>
-      <p>
-        Offline-first support with service-workers and a lighthouse score as high as possible (90+).
-      </p>
-      <br />
-      <vue-headline level="3">Design System</vue-headline>
-      <p>
-        Includes a blueprint for a 100% customizable Design System with a huge amount of
-        <a href="/storybook" target="_blank" rel="noopener">components</a>.
-      </p>
-    </home-section>
     </home-section>
   </div>
 </template>
@@ -85,7 +46,7 @@ import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - flexible, scalable, opinionated, fast',
+    title: 'Lup3 Solutions',
     meta: [
       {
         name: 'description',
