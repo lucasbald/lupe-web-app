@@ -40,6 +40,11 @@
           Home
         </vue-sidebar-group-item>
 
+        <vue-sidebar-group-item to="/portifolio">
+          <vue-icon />
+          Portifolio
+        </vue-sidebar-group-item>
+
         <!-- <vue-sidebar-group-item :to="{ name: 'counter' }">
           <vue-icon-hashtag />
           VueX Example

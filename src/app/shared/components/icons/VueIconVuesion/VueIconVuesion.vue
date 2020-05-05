@@ -1,5 +1,5 @@
 <template>
-  <i title="vuesion" aria-label="vuesion logo">
+  <i title="lup3" aria-label="lup3 logo">
     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
       <g fill="#000" fill-rule="nonzero">
         <path
@@ -12,7 +12,7 @@
 
 <script lang="ts">
 export default {
-  name: 'VueIconVuesion',
+  name: 'VueIconLup3',
 };
 </script>
 

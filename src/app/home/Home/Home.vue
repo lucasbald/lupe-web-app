@@ -22,10 +22,16 @@
     <home-section image="lucas-image.jpg" flip>
       <vue-headline level="2">Lucas Baldin</vue-headline>
       <br />
+      <vue-headline level="3">Graduação</vue-headline>
+      <p>
+        Graduado em Ciências da Computação pela UNESP - Rio Claro, Diretor executivo da empresa júnior Info Jr durante 3
+        anos e formado pela ETEC Deputado Salim Sedeh em Informática.
+      </p>
+      <br />
       <vue-headline level="3">Experiência</vue-headline>
       <p>
-        Graduado em Ciências da Computação pela UNESP, Diretor executivo da empresa júnior Info Jr durante 3 anos e
-        atualmente Engenheiro de Software na Ci&t
+        Trabalhando a 3 anos na <a href="https://br.ciandt.com/" target="_blank" rel="noopener">Ci&T</a> em Campinas,
+        atualmente como Engenheiro de Software voltado para qualidade.
       </p>
       <br />
       <vue-headline level="3">Você me encontra em:</vue-headline>
@@ -50,8 +56,7 @@ export default {
     meta: [
       {
         name: 'description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'lup3 - Marketing and Tecnology',
       },
       {
         name: 'robots',
@@ -62,36 +67,32 @@ export default {
         content: 'vue.js, vuex, vuex-persist, seo, server-side-rendering, isomorphic, progressive-web-app',
       },
 
-      { name: 'og:url', content: 'https://vuesion.herokuapp.com/' },
-      { name: 'og:site_name', content: 'vuesion' },
+      { name: 'og:url', content: 'https://lup3.herokuapp.com/' },
+      { name: 'og:site_name', content: 'lup3' },
       { name: 'og:type', content: 'website' },
       { name: 'og:locale', content: 'en' },
       {
         name: 'og:title',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'lup3 - Marketing and Tecnology',
       },
       {
         name: 'og:description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'lup3 - Marketing and Tecnology',
       },
-      { name: 'og:image:url', content: 'https://vuesion.herokuapp.com/logo.png' },
+      { name: 'og:image:url', content: 'https://lup3.herokuapp.com/logo.png' },
 
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:site', content: '@vuesion1' },
       { name: 'twitter:creator', content: '@vuesion1' },
       {
         name: 'twitter:title',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'lup3 - Marketing and Tecnology',
       },
-      { name: 'twitter:url', content: 'https://vuesion.herokuapp.com/' },
-      { name: 'twitter:image', content: 'https://vuesion.herokuapp.com/logo.png' },
+      { name: 'twitter:url', content: 'https://lup3.herokuapp.com/' },
+      { name: 'twitter:image', content: 'https://lup3.herokuapp.com/logo.png' },
       {
         name: 'twitter:description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'lup3 - Marketing and Tecnology',
       },
     ],
   },

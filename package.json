@@ -1,17 +1,17 @@
 {
   "name": "web-app",
   "version": "0.0.0",
-  "description": "Created with vuesion.",
+  "description": "Web app created with the last Vue practices",
   "repository": {
     "type": "",
-    "url": ""
+    "url": "https://github.com/lucasbald/lupe-web-app"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "homepage": "",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/lucasbald/lupe-web-app/issues"
   },
   "scripts": {
     "dev": "vuesion dev -o",

@@ -10,7 +10,7 @@ import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - page not found',
+    title: 'lup3 - page not found',
     meta: [
       {
         name: 'robots',

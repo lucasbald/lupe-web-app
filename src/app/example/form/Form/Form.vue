@@ -23,7 +23,7 @@ import VueBreadcrumb from '@components/VueBreadcrumb/VueBreadcrumb.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - Form Example',
+    title: 'lup3 - Form Example',
   },
   components: { VueBreadcrumb, VueHeadline, FormExample, VueGridItem, VueGridRow, VueGrid },
   computed: {},
