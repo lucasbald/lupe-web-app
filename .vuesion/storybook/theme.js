@@ -3,7 +3,7 @@ import theme from './_theme.scss';
 
 export default create({
   ...theme,
-  brandTitle: 'vuesion Storybook',
-  brandUrl: 'https://vuesion.herokuapp.com',
-  brandImage: 'https://vuesion.herokuapp.com/logo.png',
+  brandTitle: 'lup3 Storybook',
+  brandUrl: 'https://lup3.herokuapp.com',
+  brandImage: 'https://lup3.herokuapp.com/logo.png',
 });

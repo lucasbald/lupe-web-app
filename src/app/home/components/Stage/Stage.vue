@@ -8,16 +8,11 @@
           <img src="logo-lup3.png" alt="logo website" />
           <vue-headline level="1">Lup3 Marketing and Tecnology</vue-headline>
           <div :class="$style.subTitle">
-            {{
-              $t(
-                'App.core.description'
-              )
-            }}
+            {{ $t('App.core.description') }}
           </div>
         </vue-grid-item>
       </vue-grid-row>
     </vue-grid>
-    </br>
   </div>
 </template>
 

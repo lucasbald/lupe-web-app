@@ -10,7 +10,7 @@ import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - an error occurred',
+    title: 'lup3 - an error occurred',
     meta: [
       {
         name: 'robots',
