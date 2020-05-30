@@ -1,0 +1,11 @@
+.home-logo {
+    margin: 10px;
+    height: 40vmin;
+    pointer-events: none;
+};
+
+.home-logo-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
