@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBLink } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
+import App from '../../App'
 
 class Header extends Component {
     state = {
@@ -74,6 +75,9 @@ class Header extends Component {
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBNavbar>
+
+            <App />
+            
             </Router>
             );
     }
