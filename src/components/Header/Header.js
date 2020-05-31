@@ -47,7 +47,7 @@ class Header extends Component {
                                 </MDBDropdownToggle>
 
                                 <MDBDropdownMenu className="dropdown-default">
-                                    <MDBDropdownItem href="/get-hero">Get Hero</MDBDropdownItem>
+                                    <MDBDropdownItem href="/gethero">Get Hero</MDBDropdownItem>
                                 </MDBDropdownMenu>
                             </MDBDropdown>
                         </MDBNavItem>
