@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBLink } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
+import App from '../../App';
 
 class Header extends Component {
     state = {
@@ -16,7 +17,7 @@ class Header extends Component {
 
         return (
             <Router>
-            <MDBNavbar color=" red accent-2" dark expand="md">
+            <MDBNavbar color="red darken-1" dark expand="md">
                 <MDBNavbarBrand>
                 <strong className="white-text">Lup3</strong>
                 </MDBNavbarBrand>
@@ -28,15 +29,15 @@ class Header extends Component {
                         </MDBNavItem>
 
                         <MDBNavItem>
-                            <MDBLink to="/about">About</MDBLink >
+                            <MDBLink to="/about" disabled >About</MDBLink >
                         </MDBNavItem>
 
                         <MDBNavItem>
-                            <MDBLink to="/contact">Contact</MDBLink >
+                            <MDBLink to="/contact" disabled >Contact</MDBLink >
                         </MDBNavItem>
 
                         <MDBNavItem>
-                            <MDBLink to="/portifolio">Portifolio</MDBLink >
+                            <MDBLink to="/portifolio" disabled >Portifolio</MDBLink >
                         </MDBNavItem>
 
                         <MDBNavItem>
@@ -46,7 +47,9 @@ class Header extends Component {
                                 </MDBDropdownToggle>
 
                                 <MDBDropdownMenu className="dropdown-default">
-                                    <MDBDropdownItem href="/get-hero">Get Hero</MDBDropdownItem>
+                                    <MDBDropdownItem color=" red accent-2">
+                                        <MDBLink to="/gethero" style={{color: "black"}}>Get Hero</MDBLink >
+                                    </MDBDropdownItem>
                                 </MDBDropdownMenu>
                             </MDBDropdown>
                         </MDBNavItem>
@@ -74,6 +77,9 @@ class Header extends Component {
                     </MDBNavbarNav>
                 </MDBCollapse>
             </MDBNavbar>
+
+            <App />
+            
             </Router>
             );
     }
