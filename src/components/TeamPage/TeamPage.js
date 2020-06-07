@@ -7,14 +7,13 @@ import pedroImage from '../../assets/pedro-image.png';
 
 const TeamPage = () => {
   return (
-    <MDBCard className="px-5 pb-1 text-center">
+    <MDBCard className="px-5 pb-1 text-center" color="grey lighten-3">
       <MDBCardBody>
-        <h2 className="h1-responsive font-weight-bold my-5">
-            Lup3 Marketing and Tecnology
-        </h2>
-        <p className="grey-text w-responsive mx-auto mb-5">
-            Bem vindos ao nosso mundo de soluções tecnológicas!
-        </p>
+        <h3 className="h3-responsive font-weight-bold my-5">
+          Bem vindos ao nosso mundo de soluções tecnológicas!
+        </h3>
+        
+        <br />
         <MDBRow className="text-md-left">
           <MDBCol lg="6" md="12" className="mb-5">
             <MDBCol md="4" lg="6" className="float-left">

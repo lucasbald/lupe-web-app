@@ -1,0 +1,11 @@
+.error-logo {
+    margin: 10px;
+    height: 40vmin;
+    pointer-events: none;
+};
+
+.error-404-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}

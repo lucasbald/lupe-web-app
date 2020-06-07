@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBLink } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-import App from '../../App'
+import App from '../../App';
 
 class Header extends Component {
     state = {
@@ -17,7 +17,7 @@ class Header extends Component {
 
         return (
             <Router>
-            <MDBNavbar color=" red accent-2" dark expand="md">
+            <MDBNavbar color="red darken-1" dark expand="md">
                 <MDBNavbarBrand>
                 <strong className="white-text">Lup3</strong>
                 </MDBNavbarBrand>
@@ -48,7 +48,7 @@ class Header extends Component {
 
                                 <MDBDropdownMenu className="dropdown-default">
                                     <MDBDropdownItem color=" red accent-2">
-                                        <MDBLink to="/gethero" style={{color: "black"}} disabled>Get Hero</MDBLink >
+                                        <MDBLink to="/gethero" style={{color: "black"}}>Get Hero</MDBLink >
                                     </MDBDropdownItem>
                                 </MDBDropdownMenu>
                             </MDBDropdown>
