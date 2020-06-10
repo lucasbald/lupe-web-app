@@ -60,15 +60,15 @@ const TeamPage = () => {
             <MDBCol md="8" lg="6" className="float-right">
               <h4 className="font-weight-bold mb-3">Pedro A. S. Broglio</h4>
               <h6 className="font-weight-bold grey-text mb-3">
-                Cientista do esporte
+                Analista de Marketing 
               </h6>
               <p className="grey-text">
-                Graduado em Ciências do Esporte pela UNICAMP, Vice-Presidente da empresa júnior CENS JR. em 2017 e Assistente de Marketing na A.A. Internacional.
+                Graduado em Ciências do Esporte pela Universidade Estadual de Campinas - Unicamp, Vice-Presidente da CENS Jr, analista de marketing há 2 anos na Internacional de Limeira e finalista do prêmio INOVA Unicamp.
               </p>
               <a href="https://www.linkedin.com/in/pedro-antonio-siqueira-broglio-a3b456138/" className="p-2 fa-lg fb-ic">
                 <MDBIcon fab icon="linkedin" />
               </a>
-              <a href="#!" className="p-2 fa-lg yt-ic">
+              <a href="https://www.instagram.com/pa.broglio" className="p-2 fa-lg yt-ic">
                 <MDBIcon fab icon="instagram" />
               </a>
             </MDBCol>
