@@ -29,7 +29,7 @@ class Header extends Component {
                         </MDBNavItem>
 
                         <MDBNavItem>
-                            <MDBLink to="/about" disabled >About</MDBLink >
+                            <MDBLink to="/about" >About</MDBLink >
                         </MDBNavItem>
 
                         <MDBNavItem>

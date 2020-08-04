@@ -14,7 +14,7 @@ const GetHero = () => {
       return;
     }
 
-    fetch(`https://rcvgi5q8fg.execute-api.us-east-1.amazonaws.com/prod/v1/getHero?heroName=${heroName}`)
+    fetch(`https://jsonplaceholder.typicode.com/todos/${heroName}`)
       .then(results => results.json())
       .then(data => {
         setHeroData(data);
