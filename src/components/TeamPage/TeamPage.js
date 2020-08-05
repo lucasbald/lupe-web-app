@@ -33,7 +33,7 @@ const TeamPage = () => {
               </h6>
               <p className="grey-text">
                 Graduado em Ciências da Computação pela UNESP - Rio Claro, Diretor executivo da empresa júnior Info Jr durante 3 anos e formado pela ETEC Deputado Salim Sedeh em Informática.
-                Trabalhando a 3 anos na Ci&T em Campinas, atualmente como Engenheiro de Software voltado para qualidade.
+                Trabalhando há 3 anos na Ci&T em Campinas, atualmente como Engenheiro de Software voltado para qualidade.
               </p>
               <a href="https://www.linkedin.com/in/lbaldin/" className="p-2 fa-lg fb-ic">
                 <MDBIcon fab icon="linkedin" />
